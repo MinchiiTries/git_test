@@ -8,7 +8,7 @@ font-family: Verdana, sans-serif;
 
 img {
     height: auto;
-    width: 800px;
+    width: 870px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -35,6 +35,7 @@ h3 {
     background-color: cornsilk;
     display: block;
     max-width: 500px;
+    border-right: 10px;
 }
 
 .ingredients .amount {
