@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 2px  solid red;
-}
+}  */
 
 body {
 font-family: Verdana, sans-serif;
@@ -11,27 +11,26 @@ img {
     height: auto;
     width: 700px;
 }
-h1 {
-
-}
-
-h3 {
-
-}
 
 div {
     background-color: cornsilk;
-    line-height: 20px;
 }
 
+h3 {
+    text-indent: 5px;
+}
 .ingredients {
-
+    line-height: 25px;
+    border: 2px solid sienna;
+    margin-top: 15px;
 }
 
-.ingredients .ul .amount {
-
+.ingredients .amount {
+    padding-right: 10px;
 }
 
-.steps .ol {
-line-height: 100px;
+.steps {
+    line-height: 25px;
+    border: 2px solid sienna;
+    margin-top: 15px;
 }
