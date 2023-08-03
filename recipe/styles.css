@@ -4,33 +4,60 @@
 
 body {
 font-family: Verdana, sans-serif;
-max-width: 700px;
 }
 
 img {
     height: auto;
-    width: 700px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div {
-    background-color: cornsilk;
+    
+}
+
+h1 {
+text-align: center;
 }
 
 h3 {
     text-indent: 5px;
 }
+
+ .main {
+    display: flex;
+    justify-content: center;
+}
+
 .ingredients {
     line-height: 25px;
     border: 2px solid sienna;
     margin-top: 15px;
+    padding-right: 10px;
+    background-color: cornsilk;
+    display: block;
+    max-width: 500px;
 }
 
 .ingredients .amount {
-    padding-right: 10px;
+    width: 75px;
+    height: auto;
+    display: inline-block;
 }
 
 .steps {
     line-height: 25px;
     border: 2px solid sienna;
     margin-top: 15px;
+    background-color: cornsilk;
+    text-align: justify;
+    max-width: 500px;
+}
+
+.steps ol {
+    display: block;
+    padding-right: 15px;
+    flex: 1;
 }
