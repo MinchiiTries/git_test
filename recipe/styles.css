@@ -41,15 +41,15 @@ body {
         padding-right: 10px;
         background-color: cornsilk;
         display: block;
-        width: 500px;
+        width: 400px;
         border-right: 10px;
         display: flex;
         flex-direction: column;
     }
     
     h3 {
-     padding-left: 12px;
-     display: flex;
+        padding-left: 12px;
+        display: flex;
     }
     
     .ingredients .line-ing {
@@ -76,9 +76,9 @@ body {
     
     .steps {
         line-height: 25px;
-        border: 2px solid sienna;
         margin-top: 15px;
         background-color: cornsilk;
+        border: 2px solid sienna;
         text-align: justify;
         max-width: 500px;
         display: flex;
