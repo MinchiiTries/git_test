@@ -3,58 +3,91 @@
 }  */
 
 body {
-font-family: Verdana, sans-serif;
-}
+    font-family: Verdana, sans-serif;
+    background-color: white;
+    }
+    
+    img {
+        height: auto;
+        width: 800px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+    
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    
+    h3 {
+        text-indent: 5px;
+        display: flex;
+        margin-bottom: 0px;
+    }
+    
+     .main {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    .ingredients {
+        line-height: 25px;
+        border: 2px solid sienna;
+        margin-top: 15px;
+        padding-right: 10px;
+        background-color: cornsilk;
+        display: block;
+        width: 500px;
+        border-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h3 {
+     padding-left: 12px;
+     display: flex;
+    }
+    
+    .ingredients .line-ing {
+        display: flex;
+    }
 
-img {
-    height: auto;
-    width: 870px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .ingredients .amount {
+        /* width: 100px; */
+        display: flex;
+        /* display: inline-block; */
+        height: 30px;
+        max-width: 100px;
+        flex: 1 1 auto;
+        /* background-color: yellow; */
+    }
+    
+    .ingredients .item {
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: start;
+        /* background-color: brown; */
 
-h1 {
-text-align: center;
-}
-
-h3 {
-    text-indent: 5px;
-}
-
- .main {
-    display: flex;
-    justify-content: center;
-}
-
-.ingredients {
-    line-height: 25px;
-    border: 2px solid sienna;
-    margin-top: 15px;
-    padding-right: 10px;
-    background-color: cornsilk;
-    display: block;
-    max-width: 500px;
-    border-right: 10px;
-}
-
-.ingredients .amount {
-    width: 75px;
-    height: auto;
-    display: inline-block;
-}
-
-.steps {
-    line-height: 25px;
-    border: 2px solid sienna;
-    margin-top: 15px;
-    background-color: cornsilk;
-    text-align: justify;
-    max-width: 500px;
-}
-
-.steps ol {
-    display: block;
-    padding-right: 15px;
-    flex: 1;
-}
+    }
+    
+    .steps {
+        line-height: 25px;
+        border: 2px solid sienna;
+        margin-top: 15px;
+        background-color: cornsilk;
+        text-align: justify;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .steps ol {
+        display: flex;
+        flex-direction: column;
+        padding-right: 15px;
+        padding-bottom: 18px;
+    }
