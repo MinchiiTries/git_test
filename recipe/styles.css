@@ -63,6 +63,7 @@ body {
         /* display: inline-block; */
         height: 30px;
         max-width: 100px;
+        min-width: 100px;
         flex: 1 1 auto;
         /* background-color: yellow; */
     }
